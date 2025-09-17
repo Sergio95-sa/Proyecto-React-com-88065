@@ -1,8 +1,11 @@
 
-import './App.css'
-import Body from './components/Body'
-import Header from './components/header'
-import Footer from './components/Footer'
+import './App.css';
+import Body from './components/Body';
+import Header from './components/header';
+import Footer from './components/Footer';
+import ClicksCounters from './components/ClicksCounters';
+import MainButtons from './components/MainButtons';
+
 
 function App() {
   
@@ -12,6 +15,7 @@ function App() {
       <Header/>
       <Body/>
       <Footer/>
+
       {/*<div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -23,3 +27,4 @@ function App() {
 }
 
 export default App
+
