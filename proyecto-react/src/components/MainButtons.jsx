@@ -5,6 +5,7 @@ function MainButtons() {
     return (
     <>
         <Button onClick={()=>alert("Boton clickeado")}/>
+        <Button color={"blue"} onClick={()=>alert("Otro Boton")}/>
     </>
     )
 }
