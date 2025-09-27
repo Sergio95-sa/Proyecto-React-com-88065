@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import ClicksCounters from './components/ClicksCounters';
 import MainButtons from './components/MainButtons';
 import ItemListContainer from './components/ItemListContainer';
-import Item from './components/Item';
 import Logo from './components/Logo';
 
 function App() {
@@ -16,11 +15,9 @@ function App() {
     <>
       <Header/>
       <Body/>
-      <ItemListContainer/>
-      <Item/>
       <Footer/>
 
-      {}
+      
       
     </>
   )

@@ -1,15 +1,10 @@
-import Item from "./Item"
 
-
-
-function ItemListContainer() {
+function ItemListContainer({ children }) {
     return (
     <div>
-        <Item>
-            
-        </Item>
+        {children}
     </div>
     )
 }
 
-export default ItemListContainer
+export default ItemListContainer;
